@@ -1,0 +1,2422 @@
+[
+  {
+    "project": [
+      {
+        "id": "45445aea-8cd6-41d2-92a2-b604d9b80da5",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "Pending",
+        "created_at": "2023-09-20T06:35:18.332Z",
+        "updated_at": "2023-09-21T00:39:42.305Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "8e8b4637-9232-41ed-8970-fc9aa9f3083b",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "In Progress",
+        "created_at": "2023-09-20T12:10:06.755Z",
+        "updated_at": "2023-09-20T14:32:48.964Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "26f72913-db7b-4723-a538-e2e264b202b1",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:35:51.748Z",
+        "updated_at": "2023-09-20T11:09:42.145Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "1e2129fe-fa06-4f5f-8037-54587d6f932d",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "On Hold",
+        "created_at": "2023-09-20T23:17:37.326Z",
+        "updated_at": "2023-09-20T07:58:55.612Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "dc7fc851-d383-43a2-b133-326f72e459a4",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T17:23:25.622Z",
+        "updated_at": "2023-09-21T01:33:57.073Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "1bb0370a-5ff3-46f4-ac22-6bb6aa36a0cd",
+        "amount": 4765,
+        "status": "Submitted",
+        "created_at": "2023-09-20T23:57:42.998Z",
+        "updated_at": "2023-09-20T07:01:31.521Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "dc7fc851-d383-43a2-b133-326f72e459a4"
+      },
+      {
+        "id": "20ac3610-6e71-45b6-b17f-2c5e240d93ee",
+        "amount": 92452,
+        "status": "Accepted",
+        "created_at": "2023-09-20T16:57:56.625Z",
+        "updated_at": "2023-09-20T16:28:29.411Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "26f72913-db7b-4723-a538-e2e264b202b1"
+      },
+      {
+        "id": "5e60ee4a-5a42-4367-af6b-daab667dc1b6",
+        "amount": 86217,
+        "status": "Rejected",
+        "created_at": "2023-09-21T04:16:49.264Z",
+        "updated_at": "2023-09-20T09:16:13.967Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "dc7fc851-d383-43a2-b133-326f72e459a4"
+      },
+      {
+        "id": "d88a599d-8494-4843-907f-d7fe0973c51f",
+        "amount": 528,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T23:24:11.028Z",
+        "updated_at": "2023-09-21T01:23:31.676Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "45445aea-8cd6-41d2-92a2-b604d9b80da5"
+      },
+      {
+        "id": "27cb5a0a-ea9f-405d-8bdb-dbf120f3d034",
+        "amount": 16781,
+        "status": "Expired",
+        "created_at": "2023-09-20T17:12:10.374Z",
+        "updated_at": "2023-09-20T12:34:05.050Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "1e2129fe-fa06-4f5f-8037-54587d6f932d"
+      }
+    ],
+    "agency": [
+      {
+        "id": "e4b6c370-4ab6-4b08-87a1-64023906dc81",
+        "name": "Agency A",
+        "description": "Agency A provides creative design services",
+        "created_at": "2023-09-21T04:25:36.500Z",
+        "updated_at": "2023-09-20T08:28:11.137Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "368e04f8-d4cd-434f-b64b-0e311f45e4fb",
+        "name": "Agency B",
+        "description": "Agency B specializes in digital marketing",
+        "created_at": "2023-09-21T01:45:50.839Z",
+        "updated_at": "2023-09-20T20:17:09.955Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "62a874bf-c489-4fee-a8a6-cc49e253fe20",
+        "name": "Agency C",
+        "description": "Agency C offers web development solutions",
+        "created_at": "2023-09-20T16:43:06.107Z",
+        "updated_at": "2023-09-20T13:34:44.943Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b51d516b-874e-49b5-98e7-c94ecdee67ac",
+        "name": "Agency D",
+        "description": "Agency D focuses on branding and advertising",
+        "created_at": "2023-09-20T19:57:12.178Z",
+        "updated_at": "2023-09-20T17:43:25.921Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "85731c17-3dc0-4ffc-9896-f5b7635552d6",
+        "name": "Agency E",
+        "description": "Agency E provides PR and media relations services",
+        "created_at": "2023-09-20T15:57:45.509Z",
+        "updated_at": "2023-09-20T19:11:30.614Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "9ec99194-0982-4e24-b65c-5ba8b5498083",
+        "joined_at": "2023-09-21T05:08:54.685Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T06:51:42.255Z",
+        "updated_at": "2023-09-21T02:46:11.860Z",
+        "agency_id": "62a874bf-c489-4fee-a8a6-cc49e253fe20",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "e92a525a-203d-4847-8ac5-7e26bf7b859c",
+        "joined_at": "2023-09-21T00:09:31.534Z",
+        "role": "Designer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T23:53:41.109Z",
+        "updated_at": "2023-09-20T18:14:54.374Z",
+        "agency_id": "85731c17-3dc0-4ffc-9896-f5b7635552d6",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "31917fa9-919b-46ab-955f-1a0f4c502278",
+        "joined_at": "2023-09-20T11:50:35.120Z",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-09-20T06:52:01.206Z",
+        "updated_at": "2023-09-20T14:29:00.375Z",
+        "agency_id": "85731c17-3dc0-4ffc-9896-f5b7635552d6",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "3f609b79-39ba-48ae-8958-1ac36b4dc41b",
+        "joined_at": "2023-09-21T03:56:51.354Z",
+        "role": "Marketing Specialist",
+        "status": "Suspended",
+        "created_at": "2023-09-20T11:27:22.278Z",
+        "updated_at": "2023-09-20T13:06:23.986Z",
+        "agency_id": "b51d516b-874e-49b5-98e7-c94ecdee67ac",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "ab86a2ac-bad4-4ffa-b379-e03001d3b240",
+        "joined_at": "2023-09-20T19:38:35.857Z",
+        "role": "Account Executive",
+        "status": "Terminated",
+        "created_at": "2023-09-20T23:33:13.823Z",
+        "updated_at": "2023-09-20T20:30:50.362Z",
+        "agency_id": "e4b6c370-4ab6-4b08-87a1-64023906dc81",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cdf5744e-b3cf-4e96-b618-91a013609258",
+        "email": "Angelica_Jakubowski@gmail.com",
+        "firstName": "Jacky",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73498213",
+        "tenantId": null
+      },
+      {
+        "reference": "400230db-873f-4d35-a6f8-b69ac20f3d86",
+        "email": "Dawson_Lynch@yahoo.com",
+        "firstName": "Rogers",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48237362",
+        "tenantId": null
+      },
+      {
+        "reference": "d8e4abd3-b9c7-4a94-be51-beddd2929ea5",
+        "email": "Sadie11@yahoo.com",
+        "firstName": "Diana",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23939753",
+        "tenantId": null
+      },
+      {
+        "reference": "4486fa9c-424c-45b3-9856-009c3b65ddc5",
+        "email": "Kenton34@yahoo.com",
+        "firstName": "Lorine",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/61.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be824853-86d5-4478-8a43-7e42e5901174",
+        "email": "Hubert_Simonis@yahoo.com",
+        "firstName": "Weldon",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49112031",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "c7707df1-2308-445c-8f4a-8e6e05720c45",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "Pending",
+        "created_at": "2023-09-20T21:03:48.634Z",
+        "updated_at": "2023-09-20T14:17:33.473Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "97c8f3c0-22c0-4e71-bb90-403c2afad7d7",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "In Progress",
+        "created_at": "2023-09-20T17:45:01.786Z",
+        "updated_at": "2023-09-20T17:10:58.594Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "2a476e7a-c8ff-4d22-8619-3fbd136395d4",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "Completed",
+        "created_at": "2023-09-20T22:03:22.921Z",
+        "updated_at": "2023-09-20T18:57:24.152Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "30d33a4b-1489-4364-92c7-5c18486ddd47",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "On Hold",
+        "created_at": "2023-09-20T12:50:00.056Z",
+        "updated_at": "2023-09-20T17:23:10.777Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "7cf7cfdc-0fa8-4dae-b717-617322cb49cf",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T09:07:19.580Z",
+        "updated_at": "2023-09-21T03:55:31.966Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "31cac9cf-fdcd-43e6-9e12-c52053075048",
+        "amount": 12576,
+        "status": "Submitted",
+        "created_at": "2023-09-21T05:20:45.266Z",
+        "updated_at": "2023-09-21T00:55:01.136Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "7cf7cfdc-0fa8-4dae-b717-617322cb49cf"
+      },
+      {
+        "id": "9dfb74d5-2dc5-4580-bcd6-6731bf85b043",
+        "amount": 20492,
+        "status": "Accepted",
+        "created_at": "2023-09-20T19:35:51.976Z",
+        "updated_at": "2023-09-21T03:21:53.646Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "30d33a4b-1489-4364-92c7-5c18486ddd47"
+      },
+      {
+        "id": "d6ce8783-6fd8-4303-a537-eafa4da05524",
+        "amount": 58324,
+        "status": "Rejected",
+        "created_at": "2023-09-20T15:42:55.501Z",
+        "updated_at": "2023-09-20T21:03:19.647Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "2a476e7a-c8ff-4d22-8619-3fbd136395d4"
+      },
+      {
+        "id": "bf2ba355-b4af-470b-8378-3b6c20343e75",
+        "amount": 84007,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T20:32:16.547Z",
+        "updated_at": "2023-09-20T14:48:28.263Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "97c8f3c0-22c0-4e71-bb90-403c2afad7d7"
+      },
+      {
+        "id": "79bae6ef-91da-4aed-9d16-80d266fe1afa",
+        "amount": 11195,
+        "status": "Expired",
+        "created_at": "2023-09-20T07:00:47.565Z",
+        "updated_at": "2023-09-20T22:23:07.554Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "30d33a4b-1489-4364-92c7-5c18486ddd47"
+      }
+    ],
+    "agency": [
+      {
+        "id": "f544ac1f-0ae8-4283-b9a6-59956abc8753",
+        "name": "Agency A",
+        "description": "This is agency A",
+        "created_at": "2023-09-20T16:41:27.106Z",
+        "updated_at": "2023-09-20T17:45:28.218Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "24d84278-b719-417a-b3ca-5e4160a689a4",
+        "name": "Agency B",
+        "description": "This is agency B",
+        "created_at": "2023-09-20T23:50:25.453Z",
+        "updated_at": "2023-09-20T15:25:47.392Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a75bb012-442e-4b28-8025-3f7b88db83d5",
+        "name": "Agency C",
+        "description": "This is agency C",
+        "created_at": "2023-09-21T04:35:34.777Z",
+        "updated_at": "2023-09-20T06:20:11.594Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "307ab454-0f27-4637-96f1-cc0693c2e158",
+        "name": "Agency D",
+        "description": "This is agency D",
+        "created_at": "2023-09-20T22:19:14.643Z",
+        "updated_at": "2023-09-20T08:56:36.684Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "23c1dcb8-f371-4bb4-8174-c6ad0315566e",
+        "name": "Agency E",
+        "description": "This is agency E",
+        "created_at": "2023-09-21T00:13:01.552Z",
+        "updated_at": "2023-09-21T04:56:56.553Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "396f2c59-cf69-426d-98f3-eb26c4a2c008",
+        "joined_at": "2023-09-20T23:12:09.791Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T12:32:26.741Z",
+        "updated_at": "2023-09-20T17:20:54.863Z",
+        "agency_id": "f544ac1f-0ae8-4283-b9a6-59956abc8753",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "eabab454-27af-469f-bccc-643586acfddd",
+        "joined_at": "2023-09-20T21:50:31.538Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T11:12:06.441Z",
+        "updated_at": "2023-09-20T12:40:05.518Z",
+        "agency_id": "23c1dcb8-f371-4bb4-8174-c6ad0315566e",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "e2c13823-cc0f-4bb1-b945-1870f0d500d8",
+        "joined_at": "2023-09-21T04:09:34.768Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-20T15:33:55.483Z",
+        "updated_at": "2023-09-20T16:54:19.032Z",
+        "agency_id": "a75bb012-442e-4b28-8025-3f7b88db83d5",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d1c6c6-a795-48a3-b357-0786ab1f98a2",
+        "joined_at": "2023-09-20T22:06:35.362Z",
+        "role": "Tester",
+        "status": "Blocked",
+        "created_at": "2023-09-21T03:07:16.503Z",
+        "updated_at": "2023-09-20T19:18:24.726Z",
+        "agency_id": "24d84278-b719-417a-b3ca-5e4160a689a4",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "01d93223-666b-424b-9e26-80bd08f1bdcb",
+        "joined_at": "2023-09-21T01:45:13.827Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-21T03:55:20.652Z",
+        "updated_at": "2023-09-20T21:27:40.287Z",
+        "agency_id": "23c1dcb8-f371-4bb4-8174-c6ad0315566e",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4b576ba8-409f-49c3-b8aa-e15570f48199",
+        "email": "Lilliana.Cormier73@gmail.com",
+        "firstName": "Molly",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01e7460e-e570-4f81-aff7-decd89ab4ae5",
+        "email": "Mario17@yahoo.com",
+        "firstName": "Anahi",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8499930",
+        "tenantId": null
+      },
+      {
+        "reference": "f2cc4498-3189-4812-aecd-2b6afeb70ae4",
+        "email": "Sage_Barrows@gmail.com",
+        "firstName": "Wellington",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65ca75a3-4fb1-4103-9649-a33d971bfc68",
+        "email": "Blanca_Hills-Bogan@gmail.com",
+        "firstName": "Johann",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8cecc565-672b-4e86-a8f8-1bd8d03d2b6b",
+        "email": "Vito.Emard11@yahoo.com",
+        "firstName": "Kareem",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "1ddfa5f4-58ad-421a-afc4-deab2ffb5477",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-20T21:44:01.183Z",
+        "updated_at": "2023-09-20T23:37:22.240Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "040847f0-479c-4e63-83e9-3f687d0b5e23",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:49:18.851Z",
+        "updated_at": "2023-09-20T17:15:46.065Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "82a5cfcc-d2bc-4853-9375-a73afa081f11",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T14:33:08.167Z",
+        "updated_at": "2023-09-20T23:39:13.206Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "77e5925b-48ff-48e4-a83c-fd692b55899c",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Pending",
+        "created_at": "2023-09-20T19:44:05.952Z",
+        "updated_at": "2023-09-21T03:23:37.439Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5a6f8d-acbe-4310-9e4e-d35c7d18ba6b",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T20:08:13.811Z",
+        "updated_at": "2023-09-21T01:43:25.948Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "f405fbc8-57e2-46ab-afb4-1cecea5bc045",
+        "amount": 7621,
+        "status": "Submitted",
+        "created_at": "2023-09-20T17:27:00.046Z",
+        "updated_at": "2023-09-20T20:51:39.896Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "1ddfa5f4-58ad-421a-afc4-deab2ffb5477"
+      },
+      {
+        "id": "f9b5a70b-9dc9-4943-a305-99da0a39cee0",
+        "amount": 49522,
+        "status": "Accepted",
+        "created_at": "2023-09-20T06:46:16.365Z",
+        "updated_at": "2023-09-20T15:20:16.115Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "82a5cfcc-d2bc-4853-9375-a73afa081f11"
+      },
+      {
+        "id": "0f296c90-fac7-4aee-8eb5-d1b0920d23ff",
+        "amount": 24371,
+        "status": "Rejected",
+        "created_at": "2023-09-20T15:40:31.861Z",
+        "updated_at": "2023-09-21T01:16:49.840Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "1ddfa5f4-58ad-421a-afc4-deab2ffb5477"
+      },
+      {
+        "id": "67e189ef-1a7d-43a8-8767-db487df21a90",
+        "amount": 85972,
+        "status": "Under review",
+        "created_at": "2023-09-20T18:32:49.412Z",
+        "updated_at": "2023-09-20T15:51:52.922Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "77e5925b-48ff-48e4-a83c-fd692b55899c"
+      },
+      {
+        "id": "ed3fb54b-5d68-4410-bdf5-143316f08356",
+        "amount": 3133,
+        "status": "Expired",
+        "created_at": "2023-09-20T09:18:35.286Z",
+        "updated_at": "2023-09-21T05:04:49.581Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "eb5a6f8d-acbe-4310-9e4e-d35c7d18ba6b"
+      }
+    ],
+    "agency": [
+      {
+        "id": "5eec1c5c-1a6e-4610-b3ad-3d7a7f72a7be",
+        "name": "Agency A",
+        "description": "Agency A provides top-notch services for...",
+        "created_at": "2023-09-20T17:00:25.793Z",
+        "updated_at": "2023-09-21T00:42:19.844Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "06b4ed22-323f-4e1f-9c02-1a66827093a7",
+        "name": "Agency B",
+        "description": "Agency B is known for its creative approach in...",
+        "created_at": "2023-09-21T04:56:36.463Z",
+        "updated_at": "2023-09-20T18:49:09.368Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d42a08d8-6a76-44f0-8a7c-efc477856eab",
+        "name": "Agency C",
+        "description": "Agency C specializes in digital marketing for...",
+        "created_at": "2023-09-20T15:16:23.607Z",
+        "updated_at": "2023-09-20T09:46:09.156Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "14a874a2-262a-4dba-8f51-112f0a53c0dd",
+        "name": "Agency D",
+        "description": "Agency D offers strategic solutions for...",
+        "created_at": "2023-09-20T23:38:00.192Z",
+        "updated_at": "2023-09-21T02:11:59.772Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0f17b455-a3b3-49c8-b884-1641a2c98fd6",
+        "name": "Agency E",
+        "description": "Agency E helps businesses achieve their goals in...",
+        "created_at": "2023-09-20T12:07:06.260Z",
+        "updated_at": "2023-09-20T11:45:31.492Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "33a5347f-6ae6-4ac9-9a98-b1963f00d3cd",
+        "joined_at": "2023-09-20T10:59:43.460Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T12:56:03.210Z",
+        "updated_at": "2023-09-21T01:10:38.346Z",
+        "agency_id": "06b4ed22-323f-4e1f-9c02-1a66827093a7",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "55d065fe-8418-489d-9d02-1ac4bc504321",
+        "joined_at": "2023-09-20T22:41:16.671Z",
+        "role": "Coordinator",
+        "status": "Inactive",
+        "created_at": "2023-09-20T07:02:03.338Z",
+        "updated_at": "2023-09-20T21:40:41.955Z",
+        "agency_id": "14a874a2-262a-4dba-8f51-112f0a53c0dd",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "d1f99a49-a32c-43d5-9766-327edb2ab651",
+        "joined_at": "2023-09-20T07:49:23.444Z",
+        "role": "Designer",
+        "status": "On leave",
+        "created_at": "2023-09-20T18:11:37.213Z",
+        "updated_at": "2023-09-20T12:07:37.777Z",
+        "agency_id": "5eec1c5c-1a6e-4610-b3ad-3d7a7f72a7be",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "9484f67d-4b2d-4db6-90d6-5fe17cdc2ea3",
+        "joined_at": "2023-09-20T21:40:41.201Z",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-09-20T17:55:44.574Z",
+        "updated_at": "2023-09-21T00:44:55.277Z",
+        "agency_id": "d42a08d8-6a76-44f0-8a7c-efc477856eab",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "dde7d6e5-3f59-4dd7-ba95-7848766bd513",
+        "joined_at": "2023-09-20T13:00:53.956Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-20T12:45:38.626Z",
+        "updated_at": "2023-09-20T17:50:09.393Z",
+        "agency_id": "06b4ed22-323f-4e1f-9c02-1a66827093a7",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4d928db7-4d1f-4d99-a912-c5ace7d33d56",
+        "email": "Sister.Weimann@hotmail.com",
+        "firstName": "Aaliyah",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/75.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff57fe45-93da-482d-b5c3-a3e36c95c987",
+        "email": "Moses_Lang75@hotmail.com",
+        "firstName": "Oceane",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69814406",
+        "tenantId": null
+      },
+      {
+        "reference": "24808cfb-66f3-4ae4-819f-9d39b99bf6f2",
+        "email": "Liza84@gmail.com",
+        "firstName": "Sidney",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b169648d-0d86-41e1-9a2e-445073993f84",
+        "email": "Dora.Denesik66@yahoo.com",
+        "firstName": "Christelle",
+        "lastName": "Wiegand-Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71829630",
+        "tenantId": null
+      },
+      {
+        "reference": "d153d152-1e49-4fb8-861c-3f6462659ac9",
+        "email": "Adrain_Cole34@hotmail.com",
+        "firstName": "Rey",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61062415",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "d3b021a5-b318-43ea-bb74-45d28686cb4e",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-20T09:20:21.857Z",
+        "updated_at": "2023-09-21T04:26:52.182Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "33c9aeb1-b235-4683-9093-558d10f61396",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-21T02:13:43.075Z",
+        "updated_at": "2023-09-20T14:34:10.044Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "6447e787-f448-4eef-b944-575514b2c705",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T18:32:50.591Z",
+        "updated_at": "2023-09-20T15:13:41.422Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "3815aacc-d2a5-4860-82e8-8c0f9cf70c35",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T20:56:59.849Z",
+        "updated_at": "2023-09-21T00:28:53.332Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b6106d29-26ab-4870-9624-fa64e3346966",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Pending",
+        "created_at": "2023-09-20T15:03:37.483Z",
+        "updated_at": "2023-09-20T13:26:47.226Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "175728ce-22a3-43bc-85d9-d21b119e65a4",
+        "amount": 96793,
+        "status": "Accepted",
+        "created_at": "2023-09-21T01:00:35.351Z",
+        "updated_at": "2023-09-20T06:27:06.092Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "b6106d29-26ab-4870-9624-fa64e3346966"
+      },
+      {
+        "id": "23dde7f0-a6dc-420b-9522-1c6c9d9414bc",
+        "amount": 32910,
+        "status": "Rejected",
+        "created_at": "2023-09-20T18:29:14.515Z",
+        "updated_at": "2023-09-21T00:54:28.942Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "3815aacc-d2a5-4860-82e8-8c0f9cf70c35"
+      },
+      {
+        "id": "9463ddf1-a8d4-44a7-8c01-8dd2e02c17ef",
+        "amount": 63807,
+        "status": "Pending",
+        "created_at": "2023-09-20T14:24:28.890Z",
+        "updated_at": "2023-09-20T23:18:12.913Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "b6106d29-26ab-4870-9624-fa64e3346966"
+      },
+      {
+        "id": "62f0550d-a663-4e56-997c-783b1649b5bd",
+        "amount": 17836,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T06:40:11.406Z",
+        "updated_at": "2023-09-20T19:13:23.955Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "33c9aeb1-b235-4683-9093-558d10f61396"
+      },
+      {
+        "id": "c0d7eef6-cf38-4ee2-b609-86f54c4f5182",
+        "amount": 43608,
+        "status": "Expired",
+        "created_at": "2023-09-20T09:50:01.086Z",
+        "updated_at": "2023-09-20T19:56:35.972Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "b6106d29-26ab-4870-9624-fa64e3346966"
+      }
+    ],
+    "agency": [
+      {
+        "id": "62a65bf3-0223-426a-920a-634929eebf51",
+        "name": "Agency A",
+        "description": "Agency A provides advertising services",
+        "created_at": "2023-09-20T10:36:21.538Z",
+        "updated_at": "2023-09-20T19:35:05.434Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e9abb90f-cd65-473b-9fa4-7c43fc8df00e",
+        "name": "Agency B",
+        "description": "Agency B specializes in event management",
+        "created_at": "2023-09-21T03:51:14.597Z",
+        "updated_at": "2023-09-21T03:42:56.898Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ebae6dc4-3c47-4687-b847-a4936391a939",
+        "name": "Agency C",
+        "description": "Agency C offers PR solutions",
+        "created_at": "2023-09-20T15:12:49.550Z",
+        "updated_at": "2023-09-21T03:02:52.472Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "675b4d40-79ef-463c-8b07-a2c9fbfa4a69",
+        "name": "Agency D",
+        "description": "Agency D is a digital marketing agency",
+        "created_at": "2023-09-20T05:38:05.730Z",
+        "updated_at": "2023-09-21T00:37:03.367Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "de322fc7-402e-421d-bfdc-8a66eda04cb2",
+        "name": "Agency E",
+        "description": "Agency E provides creative design services",
+        "created_at": "2023-09-20T08:07:47.607Z",
+        "updated_at": "2023-09-20T18:03:37.533Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "99eb6927-dd24-4f60-99a1-2989a67f12e3",
+        "joined_at": "2023-09-20T23:45:38.972Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T20:18:13.508Z",
+        "updated_at": "2023-09-20T06:03:38.215Z",
+        "agency_id": "675b4d40-79ef-463c-8b07-a2c9fbfa4a69",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "18e71afd-80ae-420f-8588-fc1dc5b36034",
+        "joined_at": "2023-09-20T15:31:15.401Z",
+        "role": "Coordinator",
+        "status": "Inactive",
+        "created_at": "2023-09-20T22:33:13.510Z",
+        "updated_at": "2023-09-20T13:09:57.606Z",
+        "agency_id": "de322fc7-402e-421d-bfdc-8a66eda04cb2",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "6176076b-aeb5-490d-8c63-2b1fc02f71f9",
+        "joined_at": "2023-09-20T08:10:32.421Z",
+        "role": "Designer",
+        "status": "On leave",
+        "created_at": "2023-09-20T08:09:59.987Z",
+        "updated_at": "2023-09-20T13:43:33.351Z",
+        "agency_id": "de322fc7-402e-421d-bfdc-8a66eda04cb2",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "38aadba7-68b5-4851-8c7f-6f2880666c9b",
+        "joined_at": "2023-09-20T08:36:14.381Z",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-09-20T07:48:53.228Z",
+        "updated_at": "2023-09-20T08:47:29.642Z",
+        "agency_id": "675b4d40-79ef-463c-8b07-a2c9fbfa4a69",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "2094c305-f951-442b-a070-61e099313be6",
+        "joined_at": "2023-09-20T14:19:52.559Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-21T04:40:08.664Z",
+        "updated_at": "2023-09-20T17:18:02.200Z",
+        "agency_id": "ebae6dc4-3c47-4687-b847-a4936391a939",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2e1c6974-e5c2-484d-9904-bd0c6e5ac39e",
+        "email": "Rosella_Cartwright@yahoo.com",
+        "firstName": "Jalyn",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51455910",
+        "tenantId": null
+      },
+      {
+        "reference": "4f6762f3-e975-4724-8d10-7d1747355914",
+        "email": "Darlene_Durgan@gmail.com",
+        "firstName": "Korey",
+        "lastName": "Sawayn-Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "74a2b611-b083-430b-9079-b6df45b04f2c",
+        "email": "Koby47@hotmail.com",
+        "firstName": "Adah",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68777149",
+        "tenantId": null
+      },
+      {
+        "reference": "246933c0-0768-42a9-9319-0e0625ac2292",
+        "email": "Velma72@hotmail.com",
+        "firstName": "Natasha",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65984175",
+        "tenantId": null
+      },
+      {
+        "reference": "d94041ea-b593-406b-b279-ee444db24b88",
+        "email": "Alivia.Halvorson@hotmail.com",
+        "firstName": "Abdullah",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40138107",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "11c67955-b996-42fd-891c-db73fe318b80",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "Pending",
+        "created_at": "2023-09-20T18:47:32.013Z",
+        "updated_at": "2023-09-20T16:30:22.267Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e5aa99-b9c6-474a-b156-764c0b0e6559",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "In Progress",
+        "created_at": "2023-09-20T18:05:30.425Z",
+        "updated_at": "2023-09-20T17:30:45.557Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "6231ed0d-6f0a-428b-9e76-1bed647a13af",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "Completed",
+        "created_at": "2023-09-20T21:57:42.220Z",
+        "updated_at": "2023-09-20T17:13:24.020Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "edd49b0c-648c-47e5-8a5c-1886e6275b35",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "On Hold",
+        "created_at": "2023-09-20T08:35:00.461Z",
+        "updated_at": "2023-09-20T23:58:20.711Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "27cf2361-5c41-4e89-99d8-74d0c1c955e7",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T08:31:27.934Z",
+        "updated_at": "2023-09-20T18:43:03.720Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "6d5eba44-4d1b-49e8-96c5-a30222c5de60",
+        "amount": 79670,
+        "status": "Submitted",
+        "created_at": "2023-09-20T22:32:07.067Z",
+        "updated_at": "2023-09-20T17:13:27.568Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "c1e5aa99-b9c6-474a-b156-764c0b0e6559"
+      },
+      {
+        "id": "12d036aa-d985-4222-8a9a-337627fd11e8",
+        "amount": 15537,
+        "status": "Accepted",
+        "created_at": "2023-09-20T14:54:38.184Z",
+        "updated_at": "2023-09-21T05:28:31.547Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "6231ed0d-6f0a-428b-9e76-1bed647a13af"
+      },
+      {
+        "id": "c23a06e3-a0de-4b74-afbb-201edc4d4b62",
+        "amount": 48729,
+        "status": "Rejected",
+        "created_at": "2023-09-20T12:27:45.171Z",
+        "updated_at": "2023-09-20T12:56:28.946Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "c1e5aa99-b9c6-474a-b156-764c0b0e6559"
+      },
+      {
+        "id": "36c91d13-2060-493f-a629-43ed08f769ca",
+        "amount": 86536,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T13:24:30.029Z",
+        "updated_at": "2023-09-20T09:28:41.859Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "edd49b0c-648c-47e5-8a5c-1886e6275b35"
+      },
+      {
+        "id": "68aa7d9d-9b01-4ae5-acdb-8b7df269e3ea",
+        "amount": 2293,
+        "status": "Expired",
+        "created_at": "2023-09-20T06:28:16.271Z",
+        "updated_at": "2023-09-20T11:06:38.399Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "6231ed0d-6f0a-428b-9e76-1bed647a13af"
+      }
+    ],
+    "agency": [
+      {
+        "id": "8c1fa7b3-782f-4b36-8640-d186808c77cd",
+        "name": "Agency A",
+        "description": "Agency A provides top-notch services in...",
+        "created_at": "2023-09-20T20:16:52.315Z",
+        "updated_at": "2023-09-20T05:31:17.127Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d0dc957e-5fbb-498d-ad86-d3c23193aae6",
+        "name": "Agency B",
+        "description": "Agency B is known for its expertise in...",
+        "created_at": "2023-09-20T20:17:38.858Z",
+        "updated_at": "2023-09-20T10:28:18.120Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "11e91932-0248-48b7-821a-1d8f8f86e6e1",
+        "name": "Agency C",
+        "description": "Agency C offers innovative solutions for...",
+        "created_at": "2023-09-21T03:22:01.629Z",
+        "updated_at": "2023-09-20T14:15:24.995Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "89f5d2b1-ae46-41a5-babc-80b95b3b98e2",
+        "name": "Agency D",
+        "description": "Agency D has a proven track record in...",
+        "created_at": "2023-09-20T07:00:47.281Z",
+        "updated_at": "2023-09-21T00:07:50.227Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "88b31f0b-ecac-490d-8d7f-41ae8b902008",
+        "name": "Agency E",
+        "description": "Agency E specializes in delivering high-quality...",
+        "created_at": "2023-09-20T10:10:48.000Z",
+        "updated_at": "2023-09-20T21:36:00.478Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "8be52398-c969-4dd7-a7f3-c78394c07e11",
+        "joined_at": "2023-09-20T10:13:43.032Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T06:01:18.369Z",
+        "updated_at": "2023-09-20T22:05:22.286Z",
+        "agency_id": "d0dc957e-5fbb-498d-ad86-d3c23193aae6",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "e35accb3-3de1-4368-abe6-7e86e0f0f2dd",
+        "joined_at": "2023-09-21T01:11:13.051Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-21T02:37:00.073Z",
+        "updated_at": "2023-09-20T12:17:51.327Z",
+        "agency_id": "89f5d2b1-ae46-41a5-babc-80b95b3b98e2",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "01d159ce-2534-4b42-a7cf-ff2757f5e566",
+        "joined_at": "2023-09-21T03:53:55.159Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:48:37.217Z",
+        "updated_at": "2023-09-20T16:09:41.097Z",
+        "agency_id": "11e91932-0248-48b7-821a-1d8f8f86e6e1",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "85bde84f-422b-4de9-945f-e75d18b4e090",
+        "joined_at": "2023-09-20T23:26:16.203Z",
+        "role": "Accountant",
+        "status": "Suspended",
+        "created_at": "2023-09-20T06:39:49.312Z",
+        "updated_at": "2023-09-20T15:14:51.678Z",
+        "agency_id": "88b31f0b-ecac-490d-8d7f-41ae8b902008",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "1652f0b3-3941-4390-9dc7-6755d70bbdfc",
+        "joined_at": "2023-09-20T14:06:49.782Z",
+        "role": "Marketing Specialist",
+        "status": "Terminated",
+        "created_at": "2023-09-21T00:54:13.152Z",
+        "updated_at": "2023-09-20T05:47:23.654Z",
+        "agency_id": "88b31f0b-ecac-490d-8d7f-41ae8b902008",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1bfaa8a6-8a17-45be-9ade-46dbaef9b25d",
+        "email": "Judd_Osinski34@gmail.com",
+        "firstName": "Elmira",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13231154",
+        "tenantId": null
+      },
+      {
+        "reference": "8dbb238c-0463-42ed-939f-eadf15f4c22b",
+        "email": "Michele.Wyman99@yahoo.com",
+        "firstName": "Werner",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1056.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f05accde-890e-4f7e-922c-7c20c508d903",
+        "email": "Stefanie.Kirlin83@hotmail.com",
+        "firstName": "Rylee",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46239701",
+        "tenantId": null
+      },
+      {
+        "reference": "baa54518-8427-46b3-ac1a-aab83ebe9644",
+        "email": "Maximo.Schultz51@gmail.com",
+        "firstName": "Zoe",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86450243",
+        "tenantId": null
+      },
+      {
+        "reference": "5f749b65-9daf-40ca-819a-8f3b1e578501",
+        "email": "Norma_Kulas47@yahoo.com",
+        "firstName": "Dave",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "4bae67b1-4a4b-4e5b-bf4e-99ab09eeca6d",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-21T03:22:00.405Z",
+        "updated_at": "2023-09-20T23:17:55.948Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "e872c7d2-28b2-40bf-b664-9551b04f5052",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:59:14.643Z",
+        "updated_at": "2023-09-21T01:46:11.496Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "3d6f40b8-8a10-452c-9e78-4307890d06b8",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T17:13:25.193Z",
+        "updated_at": "2023-09-20T18:21:39.183Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "9672619a-c0c4-4579-ac26-38f583cf4f97",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Pending",
+        "created_at": "2023-09-20T14:06:28.555Z",
+        "updated_at": "2023-09-20T12:00:02.333Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "ce962a43-52ed-49c3-abd7-e94feabb4347",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T16:12:20.071Z",
+        "updated_at": "2023-09-20T14:18:45.505Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "6e78445c-b11e-4b3a-91e0-ad2bc795f820",
+        "amount": 17705,
+        "status": "Open",
+        "created_at": "2023-09-21T02:51:29.354Z",
+        "updated_at": "2023-09-20T06:01:29.185Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "ce962a43-52ed-49c3-abd7-e94feabb4347"
+      },
+      {
+        "id": "4e30e12b-1df3-40b7-a22a-3aea9e7d9bc7",
+        "amount": 82074,
+        "status": "Accepted",
+        "created_at": "2023-09-20T19:23:21.373Z",
+        "updated_at": "2023-09-20T18:46:10.882Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "9672619a-c0c4-4579-ac26-38f583cf4f97"
+      },
+      {
+        "id": "ab14c15c-38a6-47ff-9bb6-652cf53cdcac",
+        "amount": 76109,
+        "status": "Rejected",
+        "created_at": "2023-09-20T22:13:43.265Z",
+        "updated_at": "2023-09-20T19:33:14.442Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "9672619a-c0c4-4579-ac26-38f583cf4f97"
+      },
+      {
+        "id": "f270a905-214f-4806-a8b7-380d0125b287",
+        "amount": 84928,
+        "status": "Expired",
+        "created_at": "2023-09-20T16:33:11.024Z",
+        "updated_at": "2023-09-20T09:45:01.635Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "e872c7d2-28b2-40bf-b664-9551b04f5052"
+      },
+      {
+        "id": "14d8c5f3-dd1b-4c1a-947d-f4902e9de5aa",
+        "amount": 91841,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T08:12:56.478Z",
+        "updated_at": "2023-09-20T06:29:33.103Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "ce962a43-52ed-49c3-abd7-e94feabb4347"
+      }
+    ],
+    "agency": [
+      {
+        "id": "92ac363c-8612-4836-aa1e-5be8c59a63e9",
+        "name": "Agency A",
+        "description": "Agency A provides advertising services",
+        "created_at": "2023-09-20T10:49:51.288Z",
+        "updated_at": "2023-09-20T09:34:36.365Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ed8c19af-a387-48f2-be5b-403c0f72f3e6",
+        "name": "Agency B",
+        "description": "Agency B specializes in event management",
+        "created_at": "2023-09-20T17:14:14.135Z",
+        "updated_at": "2023-09-20T15:51:12.349Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "309165bd-056c-4b63-8546-2ab1b2b58b1e",
+        "name": "Agency C",
+        "description": "Agency C offers PR solutions",
+        "created_at": "2023-09-20T16:14:35.617Z",
+        "updated_at": "2023-09-21T03:23:24.378Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d0828550-5848-413c-80c6-e43302a52eac",
+        "name": "Agency D",
+        "description": "Agency D is a digital marketing agency",
+        "created_at": "2023-09-20T15:06:56.994Z",
+        "updated_at": "2023-09-20T08:13:08.400Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8848be0c-f25f-4d25-84bc-dd9a5d19c198",
+        "name": "Agency E",
+        "description": "Agency E focuses on social media marketing",
+        "created_at": "2023-09-21T04:13:12.599Z",
+        "updated_at": "2023-09-21T05:28:34.337Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "ba4e6bfb-d8ca-4bca-8784-53484ac571eb",
+        "joined_at": "2023-09-20T13:16:50.305Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T19:47:54.992Z",
+        "updated_at": "2023-09-20T14:24:43.705Z",
+        "agency_id": "8848be0c-f25f-4d25-84bc-dd9a5d19c198",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "5eaf3247-5e3d-4ef8-a959-0cebfef74c16",
+        "joined_at": "2023-09-20T08:02:00.719Z",
+        "role": "Coordinator",
+        "status": "Inactive",
+        "created_at": "2023-09-20T08:43:21.473Z",
+        "updated_at": "2023-09-20T21:31:38.605Z",
+        "agency_id": "d0828550-5848-413c-80c6-e43302a52eac",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "daf8943d-9f42-4721-aedc-0299fee8267a",
+        "joined_at": "2023-09-21T02:54:22.749Z",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-09-20T16:07:18.215Z",
+        "updated_at": "2023-09-20T19:02:53.837Z",
+        "agency_id": "d0828550-5848-413c-80c6-e43302a52eac",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "0d1d21ae-4a7f-4212-923c-f85517a777af",
+        "joined_at": "2023-09-21T01:24:57.234Z",
+        "role": "Developer",
+        "status": "Suspended",
+        "created_at": "2023-09-20T10:15:00.938Z",
+        "updated_at": "2023-09-20T11:30:16.302Z",
+        "agency_id": "ed8c19af-a387-48f2-be5b-403c0f72f3e6",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "982d1a25-752a-4baa-9806-5b5c988f0e90",
+        "joined_at": "2023-09-20T06:17:24.024Z",
+        "role": "Marketing Specialist",
+        "status": "On leave",
+        "created_at": "2023-09-20T17:47:54.372Z",
+        "updated_at": "2023-09-20T07:19:46.384Z",
+        "agency_id": "309165bd-056c-4b63-8546-2ab1b2b58b1e",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0641ba8c-b4ee-4271-a7da-9e8b180dd56e",
+        "email": "Maye1@hotmail.com",
+        "firstName": "Noe",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9857a262-b8ad-46d1-a691-92b776dde64f",
+        "email": "Wilhelm_Fritsch63@hotmail.com",
+        "firstName": "Derek",
+        "lastName": "Kulas-Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "641c65b1-22b4-4ef9-9cb3-b4fda7061d2d",
+        "email": "Jaunita_Gerlach@gmail.com",
+        "firstName": "Mauricio",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/833.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7796d031-e0fd-4110-a849-5cbc57df2b96",
+        "email": "Bettye.Koss28@hotmail.com",
+        "firstName": "Taya",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15723064",
+        "tenantId": null
+      },
+      {
+        "reference": "c235dc81-7c3a-4029-be3b-c1d176f04d6e",
+        "email": "Aletha.Mayert@hotmail.com",
+        "firstName": "Orie",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3827354",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "845afea8-66c2-430d-85e3-b6d88eb65654",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-20T20:54:53.250Z",
+        "updated_at": "2023-09-20T20:13:37.879Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "818ae0b9-7d65-417f-8721-da260bc3a3b2",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-20T19:53:03.426Z",
+        "updated_at": "2023-09-20T15:34:19.591Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "31e72881-cb3d-4001-88c8-f0d22b7831e3",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T22:31:18.443Z",
+        "updated_at": "2023-09-21T00:33:51.268Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "17771f4a-8e62-4395-96e9-c3d323b71d96",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Pending",
+        "created_at": "2023-09-20T12:50:22.520Z",
+        "updated_at": "2023-09-20T10:34:12.295Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "8329caac-541f-4b52-9cc9-a192a147d2bd",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T11:22:25.896Z",
+        "updated_at": "2023-09-20T08:19:54.792Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "e85c27d1-5ca7-4685-978b-960ac5ff868b",
+        "amount": 28775,
+        "status": "Submitted",
+        "created_at": "2023-09-20T14:47:18.823Z",
+        "updated_at": "2023-09-21T02:22:36.330Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "8329caac-541f-4b52-9cc9-a192a147d2bd"
+      },
+      {
+        "id": "fef4d90b-7aab-4f9b-82ce-e311dcfaf6bb",
+        "amount": 74657,
+        "status": "Accepted",
+        "created_at": "2023-09-20T18:33:13.373Z",
+        "updated_at": "2023-09-20T11:54:16.922Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "845afea8-66c2-430d-85e3-b6d88eb65654"
+      },
+      {
+        "id": "bcf42bdc-9f09-43fa-8dbf-d286b5f88b5d",
+        "amount": 80670,
+        "status": "Rejected",
+        "created_at": "2023-09-20T06:19:26.459Z",
+        "updated_at": "2023-09-20T12:52:05.137Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "845afea8-66c2-430d-85e3-b6d88eb65654"
+      },
+      {
+        "id": "f229dcc4-b71f-4f83-9892-3b8a634219f9",
+        "amount": 66270,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T14:32:58.723Z",
+        "updated_at": "2023-09-20T22:20:54.579Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "8329caac-541f-4b52-9cc9-a192a147d2bd"
+      },
+      {
+        "id": "626ff6e2-6e70-4272-9e10-6c60917b3928",
+        "amount": 79665,
+        "status": "Expired",
+        "created_at": "2023-09-20T23:57:26.215Z",
+        "updated_at": "2023-09-20T19:04:53.789Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "818ae0b9-7d65-417f-8721-da260bc3a3b2"
+      }
+    ],
+    "agency": [
+      {
+        "id": "907aa967-f74b-4172-a52d-b05861360999",
+        "name": "Agency A",
+        "description": "Agency A provides marketing services",
+        "created_at": "2023-09-20T14:55:19.351Z",
+        "updated_at": "2023-09-20T16:26:14.101Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "adb97602-4a2f-4ba2-bfa7-27e9f07a8009",
+        "name": "Agency B",
+        "description": "Agency B specializes in branding",
+        "created_at": "2023-09-20T11:15:21.553Z",
+        "updated_at": "2023-09-20T16:45:46.469Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fba1aa56-4dc4-4880-9ac8-8639774fb147",
+        "name": "Agency C",
+        "description": "Agency C offers PR solutions",
+        "created_at": "2023-09-20T22:29:00.229Z",
+        "updated_at": "2023-09-20T18:13:59.549Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6da52834-75be-4d73-9ae6-a9ca59402c0e",
+        "name": "Agency D",
+        "description": "Agency D focuses on social media marketing",
+        "created_at": "2023-09-20T11:12:58.827Z",
+        "updated_at": "2023-09-20T11:02:58.714Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "613b47c4-fd54-413d-aa67-49b42f1a40d8",
+        "name": "Agency E",
+        "description": "Agency E is a creative design agency",
+        "created_at": "2023-09-20T19:04:04.316Z",
+        "updated_at": "2023-09-20T21:20:01.014Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "2b726f68-aa41-4fc6-8474-5fb71f1654fc",
+        "joined_at": "2023-09-20T17:26:34.968Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-21T02:03:39.957Z",
+        "updated_at": "2023-09-20T14:27:44.084Z",
+        "agency_id": "6da52834-75be-4d73-9ae6-a9ca59402c0e",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "be43d0f9-3ce6-46db-abe3-11f679c0792f",
+        "joined_at": "2023-09-20T06:24:24.149Z",
+        "role": "Designer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T18:33:14.017Z",
+        "updated_at": "2023-09-20T11:10:42.625Z",
+        "agency_id": "907aa967-f74b-4172-a52d-b05861360999",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "500d23dc-2c0f-4c4d-a322-ada1cf07870a",
+        "joined_at": "2023-09-20T23:47:06.130Z",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-09-20T11:44:45.560Z",
+        "updated_at": "2023-09-20T06:05:11.127Z",
+        "agency_id": "adb97602-4a2f-4ba2-bfa7-27e9f07a8009",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "83489aa1-ccc6-4756-85b3-7de90ee5e62b",
+        "joined_at": "2023-09-21T03:29:45.348Z",
+        "role": "Marketing Specialist",
+        "status": "Suspended",
+        "created_at": "2023-09-21T01:08:27.152Z",
+        "updated_at": "2023-09-21T02:08:36.752Z",
+        "agency_id": "adb97602-4a2f-4ba2-bfa7-27e9f07a8009",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "8528f120-4661-4b2a-8726-347f22d4c012",
+        "joined_at": "2023-09-20T22:16:13.858Z",
+        "role": "Account Executive",
+        "status": "Blocked",
+        "created_at": "2023-09-20T19:22:57.092Z",
+        "updated_at": "2023-09-20T20:06:15.938Z",
+        "agency_id": "907aa967-f74b-4172-a52d-b05861360999",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51f0e609-ca6d-463e-9252-4ee0827d553e",
+        "email": "Karolann_Langosh@gmail.com",
+        "firstName": "Evie",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d1bf49e7-c79c-4953-951d-e439976728bd",
+        "email": "Keenan.Gleason23@gmail.com",
+        "firstName": "Velda",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84081317",
+        "tenantId": null
+      },
+      {
+        "reference": "512a9e6b-41a9-4c7f-9350-05e4db2cf340",
+        "email": "Rhett.Tillman50@gmail.com",
+        "firstName": "Coy",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18747948",
+        "tenantId": null
+      },
+      {
+        "reference": "8fd80300-f741-4ad5-96e2-6cc0990cf236",
+        "email": "Octavia.Funk39@gmail.com",
+        "firstName": "Hailey",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48814582",
+        "tenantId": null
+      },
+      {
+        "reference": "e44d7007-7580-4e12-ad32-e5e4e31bca8d",
+        "email": "Sheridan34@yahoo.com",
+        "firstName": "Christop",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "e9c8a424-c648-4001-a4b2-162309725c65",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-21T00:12:12.632Z",
+        "updated_at": "2023-09-20T16:47:00.686Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "c2ada887-a283-4ebd-bb20-150786e26c9a",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-20T09:58:37.176Z",
+        "updated_at": "2023-09-20T13:10:32.720Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "49596728-6567-4489-962a-566ed24fce5d",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-21T03:48:35.066Z",
+        "updated_at": "2023-09-20T15:17:58.092Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "db67a4d6-dacb-4d95-ada7-0874d342a208",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T10:18:31.938Z",
+        "updated_at": "2023-09-20T22:05:44.405Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "907429e5-9060-433a-b976-a0416fba040b",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Pending",
+        "created_at": "2023-09-20T08:30:58.512Z",
+        "updated_at": "2023-09-20T21:39:19.324Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "9d327fb1-a1f2-4c61-ba1e-ba2ab83ff751",
+        "amount": 51278,
+        "status": "Accepted",
+        "created_at": "2023-09-21T01:50:31.731Z",
+        "updated_at": "2023-09-20T10:56:10.065Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "e9c8a424-c648-4001-a4b2-162309725c65"
+      },
+      {
+        "id": "765b81c9-1e5f-4c2a-9b2c-63198adb0441",
+        "amount": 63713,
+        "status": "Rejected",
+        "created_at": "2023-09-20T06:15:26.196Z",
+        "updated_at": "2023-09-21T02:18:43.795Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "c2ada887-a283-4ebd-bb20-150786e26c9a"
+      },
+      {
+        "id": "043fa0dc-b19b-4fb2-970d-d7c7485312c1",
+        "amount": 31747,
+        "status": "Pending",
+        "created_at": "2023-09-20T09:57:07.481Z",
+        "updated_at": "2023-09-20T17:11:54.857Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "907429e5-9060-433a-b976-a0416fba040b"
+      },
+      {
+        "id": "083f8d00-9c2d-4b91-8430-fd29376d38f3",
+        "amount": 68495,
+        "status": "Withdrawn",
+        "created_at": "2023-09-20T22:18:59.370Z",
+        "updated_at": "2023-09-20T14:50:13.165Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "907429e5-9060-433a-b976-a0416fba040b"
+      },
+      {
+        "id": "5c19353c-72b6-4eea-bb1c-40aac49a79cc",
+        "amount": 23260,
+        "status": "Expired",
+        "created_at": "2023-09-20T14:50:59.103Z",
+        "updated_at": "2023-09-20T08:57:03.979Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "907429e5-9060-433a-b976-a0416fba040b"
+      }
+    ],
+    "agency": [
+      {
+        "id": "3603798c-8123-4e9c-88f2-c3e1308617c4",
+        "name": "Agency A",
+        "description": "Agency A provides marketing services",
+        "created_at": "2023-09-20T21:41:43.180Z",
+        "updated_at": "2023-09-21T03:35:57.027Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a9cfd416-1e92-4778-b1cc-c719dc432480",
+        "name": "Agency B",
+        "description": "Agency B specializes in event management",
+        "created_at": "2023-09-20T08:30:35.983Z",
+        "updated_at": "2023-09-20T20:22:55.840Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a8ffbb7a-9895-4dfc-ae4e-72fbe37c72fc",
+        "name": "Agency C",
+        "description": "Agency C offers advertising solutions",
+        "created_at": "2023-09-21T00:55:03.249Z",
+        "updated_at": "2023-09-20T12:13:11.515Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7e1f3006-2c29-44ee-8c52-f78a08dccac5",
+        "name": "Agency D",
+        "description": "Agency D focuses on digital marketing",
+        "created_at": "2023-09-20T16:58:16.800Z",
+        "updated_at": "2023-09-20T10:07:27.695Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d2996a14-1e93-4259-89a1-e67484e615eb",
+        "name": "Agency E",
+        "description": "Agency E provides PR services",
+        "created_at": "2023-09-20T23:01:46.600Z",
+        "updated_at": "2023-09-21T01:12:36.838Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "0bb054f7-d1c0-4b08-8794-f5e0dccc7078",
+        "joined_at": "2023-09-20T14:13:30.471Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T08:55:00.200Z",
+        "updated_at": "2023-09-20T21:56:23.503Z",
+        "agency_id": "7e1f3006-2c29-44ee-8c52-f78a08dccac5",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "360d5b20-a614-498a-aa53-61a4c74d1403",
+        "joined_at": "2023-09-20T09:51:27.870Z",
+        "role": "Coordinator",
+        "status": "Inactive",
+        "created_at": "2023-09-20T21:30:50.380Z",
+        "updated_at": "2023-09-20T09:07:39.423Z",
+        "agency_id": "3603798c-8123-4e9c-88f2-c3e1308617c4",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "9295c943-9995-4461-823d-bd42d22705dc",
+        "joined_at": "2023-09-21T00:53:11.228Z",
+        "role": "Consultant",
+        "status": "Pending",
+        "created_at": "2023-09-21T02:01:55.004Z",
+        "updated_at": "2023-09-20T10:10:59.517Z",
+        "agency_id": "d2996a14-1e93-4259-89a1-e67484e615eb",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "2f80e8f6-a2e0-42c3-a189-42707a929c9a",
+        "joined_at": "2023-09-20T08:22:42.613Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-20T18:32:06.500Z",
+        "updated_at": "2023-09-20T17:23:11.748Z",
+        "agency_id": "7e1f3006-2c29-44ee-8c52-f78a08dccac5",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "5284c507-2ad6-48dd-8089-8057f217a263",
+        "joined_at": "2023-09-20T13:02:02.508Z",
+        "role": "Designer",
+        "status": "Terminated",
+        "created_at": "2023-09-21T04:49:56.547Z",
+        "updated_at": "2023-09-20T11:59:48.087Z",
+        "agency_id": "3603798c-8123-4e9c-88f2-c3e1308617c4",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "42650fe3-31e8-4a16-b0c3-f491e2f64ff1",
+        "email": "Jensen.Wilkinson@yahoo.com",
+        "firstName": "Cecilia",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75755397",
+        "tenantId": null
+      },
+      {
+        "reference": "8b2a4902-089e-4251-951e-09c01a0a410a",
+        "email": "Hollie_Okuneva17@hotmail.com",
+        "firstName": "Gina",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71175431",
+        "tenantId": null
+      },
+      {
+        "reference": "c8ce13c6-5a6b-4486-8993-c2b64f766e27",
+        "email": "Leta.Bednar@yahoo.com",
+        "firstName": "Corrine",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "399c2799-9af2-4f14-aa53-8cb49a5e11f7",
+        "email": "Tatum_Brown14@hotmail.com",
+        "firstName": "Keenan",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/778.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15b53f33-de5d-4026-af9d-4135693324e4",
+        "email": "Victor.Muller@hotmail.com",
+        "firstName": "Hiram",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61391193",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "2223138c-239f-4c81-8d93-f4280c92dfb0",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-20T21:20:03.306Z",
+        "updated_at": "2023-09-20T09:04:05.166Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "1d289968-efec-4fff-bc8c-8e0d7f652081",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-20T22:10:41.571Z",
+        "updated_at": "2023-09-20T08:30:50.388Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e03131-25f3-4764-a0d4-821506129664",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T16:06:56.382Z",
+        "updated_at": "2023-09-21T05:27:24.657Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "7a680fb4-60cb-4336-b8b7-853af0632b83",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T12:31:23.051Z",
+        "updated_at": "2023-09-21T03:08:39.226Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "5a80e4ec-2741-4127-92c4-ed6d94b2f5f3",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Pending",
+        "created_at": "2023-09-20T15:12:08.393Z",
+        "updated_at": "2023-09-21T02:41:46.838Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "91fa5501-093b-4db7-8755-99758bba9cfe",
+        "amount": 92634,
+        "status": "Submitted",
+        "created_at": "2023-09-21T01:18:02.577Z",
+        "updated_at": "2023-09-20T23:25:39.734Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "7a680fb4-60cb-4336-b8b7-853af0632b83"
+      },
+      {
+        "id": "8a3abc7f-149e-4b53-ab10-92da73b92f83",
+        "amount": 55781,
+        "status": "Accepted",
+        "created_at": "2023-09-21T00:35:55.728Z",
+        "updated_at": "2023-09-20T18:50:50.179Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "7a680fb4-60cb-4336-b8b7-853af0632b83"
+      },
+      {
+        "id": "2559f4aa-a623-460c-b31e-b472fe2fe0b4",
+        "amount": 31617,
+        "status": "Rejected",
+        "created_at": "2023-09-20T15:08:30.429Z",
+        "updated_at": "2023-09-20T06:43:14.356Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "2223138c-239f-4c81-8d93-f4280c92dfb0"
+      },
+      {
+        "id": "0d5a3a80-9a16-48a1-bec1-1d5fb8cce2fd",
+        "amount": 67737,
+        "status": "Expired",
+        "created_at": "2023-09-20T17:14:40.813Z",
+        "updated_at": "2023-09-20T07:58:24.609Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "d5e03131-25f3-4764-a0d4-821506129664"
+      },
+      {
+        "id": "796c49bd-2f0e-43a9-a715-830ab6bded1e",
+        "amount": 14976,
+        "status": "Withdrawn",
+        "created_at": "2023-09-21T04:37:53.327Z",
+        "updated_at": "2023-09-21T03:53:18.790Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "7a680fb4-60cb-4336-b8b7-853af0632b83"
+      }
+    ],
+    "agency": [
+      {
+        "id": "02e4c540-589b-4bbc-984a-95c649d05430",
+        "name": "Agency A",
+        "description": "A full-service marketing agency",
+        "created_at": "2023-09-21T04:10:14.550Z",
+        "updated_at": "2023-09-20T16:17:38.042Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "cbaa97ff-5ca1-4891-9626-2db4556f84b4",
+        "name": "Agency B",
+        "description": "A creative design studio",
+        "created_at": "2023-09-21T04:32:23.855Z",
+        "updated_at": "2023-09-20T08:52:59.352Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f79b3826-c188-43ae-9796-833f10fdc93e",
+        "name": "Agency C",
+        "description": "A digital advertising agency",
+        "created_at": "2023-09-20T20:54:16.165Z",
+        "updated_at": "2023-09-20T06:17:14.121Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6d394693-43f3-494a-83c1-688e29775feb",
+        "name": "Agency D",
+        "description": "A strategic branding firm",
+        "created_at": "2023-09-20T07:27:56.585Z",
+        "updated_at": "2023-09-20T06:44:33.816Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1569633c-c81f-4eeb-b6a9-d46c46c13608",
+        "name": "Agency E",
+        "description": "A social media management company",
+        "created_at": "2023-09-20T11:18:00.669Z",
+        "updated_at": "2023-09-21T04:02:12.027Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "9c174877-5569-4538-82f5-940408674e3f",
+        "joined_at": "2023-09-21T03:49:08.542Z",
+        "role": "Project Manager",
+        "status": "Active",
+        "created_at": "2023-09-20T18:23:53.597Z",
+        "updated_at": "2023-09-20T22:23:28.549Z",
+        "agency_id": "cbaa97ff-5ca1-4891-9626-2db4556f84b4",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "3cb9fdb2-9193-4504-932d-4eb99d2ee991",
+        "joined_at": "2023-09-20T21:11:18.506Z",
+        "role": "Designer",
+        "status": "Inactive",
+        "created_at": "2023-09-20T10:41:29.658Z",
+        "updated_at": "2023-09-20T19:04:52.336Z",
+        "agency_id": "6d394693-43f3-494a-83c1-688e29775feb",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "89c93cfe-53a1-44ea-b11d-e61ed2b93590",
+        "joined_at": "2023-09-20T22:23:35.507Z",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-09-20T11:56:00.312Z",
+        "updated_at": "2023-09-21T04:17:18.776Z",
+        "agency_id": "1569633c-c81f-4eeb-b6a9-d46c46c13608",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "5e44b01d-9d06-43f6-91ac-e38365607354",
+        "joined_at": "2023-09-20T06:19:50.423Z",
+        "role": "Marketing Specialist",
+        "status": "Suspended",
+        "created_at": "2023-09-20T15:48:15.540Z",
+        "updated_at": "2023-09-20T08:36:50.334Z",
+        "agency_id": "f79b3826-c188-43ae-9796-833f10fdc93e",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "56f96177-b144-43f4-8a16-9d28e75710d3",
+        "joined_at": "2023-09-20T21:43:23.944Z",
+        "role": "Account Executive",
+        "status": "On leave",
+        "created_at": "2023-09-21T04:32:21.279Z",
+        "updated_at": "2023-09-20T05:39:14.467Z",
+        "agency_id": "6d394693-43f3-494a-83c1-688e29775feb",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ec90934-3d88-4197-93a9-6ef58f255f25",
+        "email": "Everardo.Mann35@gmail.com",
+        "firstName": "Marcus",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78457041",
+        "tenantId": null
+      },
+      {
+        "reference": "74c6173e-0294-460c-a03a-3697e0cf6fd7",
+        "email": "Trent.Watsica54@hotmail.com",
+        "firstName": "Edyth",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1117657",
+        "tenantId": null
+      },
+      {
+        "reference": "d30488a1-81a6-45dc-9654-d9107ce4837b",
+        "email": "Dulce_Littel59@gmail.com",
+        "firstName": "Jerod",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33841779",
+        "tenantId": null
+      },
+      {
+        "reference": "2d80d3f4-d976-4f1d-939c-ca4649f436d9",
+        "email": "Mateo_Weimann57@hotmail.com",
+        "firstName": "Enid",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ba283e4-3d3e-4299-965b-71c658df9eb6",
+        "email": "Modesto52@hotmail.com",
+        "firstName": "Clementine",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93960726",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "3820f18c-e95e-4050-beb2-0e88c94a9d62",
+        "name": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-09-21T04:28:39.127Z",
+        "updated_at": "2023-09-20T22:28:12.568Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b3a30b9d-1216-4c1e-98f6-b0158be05215",
+        "name": "Project B",
+        "description": "This is project B",
+        "status": "Completed",
+        "created_at": "2023-09-20T06:29:19.508Z",
+        "updated_at": "2023-09-20T22:19:45.864Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b7db8baf-828a-4ef7-bde4-b24d8acfd81b",
+        "name": "Project C",
+        "description": "This is project C",
+        "status": "On hold",
+        "created_at": "2023-09-20T16:15:13.670Z",
+        "updated_at": "2023-09-20T19:30:03.828Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "b75f2a18-d3b7-4249-b051-b75c642d2c82",
+        "name": "Project D",
+        "description": "This is project D",
+        "status": "Pending",
+        "created_at": "2023-09-20T07:46:15.751Z",
+        "updated_at": "2023-09-20T20:47:22.116Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      },
+      {
+        "id": "3dbd8ff2-827f-46c7-a0a7-012e040ca265",
+        "name": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T10:42:36.467Z",
+        "updated_at": "2023-09-20T15:01:56.911Z",
+        "client_id": "user_entity_pk",
+        "freelancer_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "4d18d4a4-201b-4b20-b27d-16b23a464aa6",
+        "amount": 37359,
+        "status": "Submitted",
+        "created_at": "2023-09-20T22:04:12.858Z",
+        "updated_at": "2023-09-21T04:36:16.157Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "b3a30b9d-1216-4c1e-98f6-b0158be05215"
+      },
+      {
+        "id": "2f9cc5f3-d38d-4f38-9544-f40ff120f7ce",
+        "amount": 47448,
+        "status": "Accepted",
+        "created_at": "2023-09-21T03:44:41.409Z",
+        "updated_at": "2023-09-21T00:07:18.261Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "3dbd8ff2-827f-46c7-a0a7-012e040ca265"
+      },
+      {
+        "id": "7e5dad07-d71f-4d6e-a367-be95aded2666",
+        "amount": 27471,
+        "status": "Rejected",
+        "created_at": "2023-09-20T09:10:42.036Z",
+        "updated_at": "2023-09-20T16:09:39.525Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "3820f18c-e95e-4050-beb2-0e88c94a9d62"
+      },
+      {
+        "id": "bce25595-3d12-44c5-80ef-b3811feab35b",
+        "amount": 21936,
+        "status": "Pending",
+        "created_at": "2023-09-20T14:23:54.954Z",
+        "updated_at": "2023-09-20T13:31:11.790Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "b3a30b9d-1216-4c1e-98f6-b0158be05215"
+      },
+      {
+        "id": "5b95aa93-a4a1-4392-acc8-1ab306059753",
+        "amount": 1446,
+        "status": "Expired",
+        "created_at": "2023-09-20T11:04:19.368Z",
+        "updated_at": "2023-09-21T04:06:07.039Z",
+        "freelancer_id": "user_entity_pk",
+        "project_id": "3dbd8ff2-827f-46c7-a0a7-012e040ca265"
+      }
+    ],
+    "agency": [
+      {
+        "id": "af5e10f4-2bd7-4a1f-91f6-2aba8100e30c",
+        "name": "Agency A",
+        "description": "Agency A provides top-notch services in...",
+        "created_at": "2023-09-21T00:00:42.109Z",
+        "updated_at": "2023-09-20T23:28:35.267Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b5447ee4-c41c-424e-a0a7-4bee0b6a609e",
+        "name": "Agency B",
+        "description": "Agency B is known for its expertise in...",
+        "created_at": "2023-09-20T07:18:15.529Z",
+        "updated_at": "2023-09-20T17:40:55.173Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ac1b5847-0113-4e24-8e0c-498ab89adc53",
+        "name": "Agency C",
+        "description": "Agency C offers innovative solutions for...",
+        "created_at": "2023-09-21T02:11:49.778Z",
+        "updated_at": "2023-09-20T08:16:16.193Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "33323e4d-aac1-4cda-a68a-71ca08b612e3",
+        "name": "Agency D",
+        "description": "Agency D specializes in...",
+        "created_at": "2023-09-20T23:49:22.977Z",
+        "updated_at": "2023-09-20T20:46:07.939Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1fa8fe98-ff14-4734-be37-2d574f824327",
+        "name": "Agency E",
+        "description": "Agency E has a team of experienced professionals in...",
+        "created_at": "2023-09-21T03:14:54.928Z",
+        "updated_at": "2023-09-20T18:02:43.534Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "agency_member": [
+      {
+        "id": "849cafa3-5421-4cbd-b2ff-a53f3ff2591a",
+        "joined_at": "2023-09-20T08:40:12.488Z",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-09-21T05:12:13.846Z",
+        "updated_at": "2023-09-20T13:49:27.366Z",
+        "agency_id": "af5e10f4-2bd7-4a1f-91f6-2aba8100e30c",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "e30ce2e1-121b-4a8e-bd06-0792d68c865f",
+        "joined_at": "2023-09-20T15:28:15.124Z",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-09-21T00:26:33.710Z",
+        "updated_at": "2023-09-21T03:58:56.677Z",
+        "agency_id": "af5e10f4-2bd7-4a1f-91f6-2aba8100e30c",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "089aa7a1-2e21-4037-92bc-75a4ce7ab974",
+        "joined_at": "2023-09-20T21:20:27.980Z",
+        "role": "Designer",
+        "status": "On leave",
+        "created_at": "2023-09-21T04:30:42.588Z",
+        "updated_at": "2023-09-20T15:21:59.234Z",
+        "agency_id": "33323e4d-aac1-4cda-a68a-71ca08b612e3",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "39f4e2fd-75f9-4cee-95ee-1afa24b16495",
+        "joined_at": "2023-09-21T03:21:18.446Z",
+        "role": "Marketing Specialist",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:35:19.084Z",
+        "updated_at": "2023-09-20T20:27:09.647Z",
+        "agency_id": "ac1b5847-0113-4e24-8e0c-498ab89adc53",
+        "member_id": "user_entity_pk"
+      },
+      {
+        "id": "b19f7696-e8d7-4247-b166-689fd74d0cdf",
+        "joined_at": "2023-09-20T12:02:50.491Z",
+        "role": "Project Coordinator",
+        "status": "Suspended",
+        "created_at": "2023-09-20T14:33:07.931Z",
+        "updated_at": "2023-09-21T00:26:19.105Z",
+        "agency_id": "af5e10f4-2bd7-4a1f-91f6-2aba8100e30c",
+        "member_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6495f348-7c3a-40a9-a8d9-0f666df5b956",
+        "email": "Blanche11@hotmail.com",
+        "firstName": "Lela",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32211931",
+        "tenantId": null
+      },
+      {
+        "reference": "ca6989eb-2b84-4eba-9a83-e72408a93af9",
+        "email": "Modesto.Leffler53@gmail.com",
+        "firstName": "Jaunita",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65761456",
+        "tenantId": null
+      },
+      {
+        "reference": "7fcb94db-fb26-4eff-80b7-b79ebabb2e42",
+        "email": "Alanna81@gmail.com",
+        "firstName": "Lea",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/732.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d471fefa-d9f6-467b-ba1a-8e039f72e0e4",
+        "email": "Hilton.Kohler1@yahoo.com",
+        "firstName": "Lazaro",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33711373",
+        "tenantId": null
+      },
+      {
+        "reference": "095f17cd-37d2-4e7b-b31c-0636c5070d5f",
+        "email": "Leora53@hotmail.com",
+        "firstName": "Cristina",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
